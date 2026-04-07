@@ -1,59 +1,54 @@
-# objetivos- <!DOCTYPE html>
-<html lang="en">
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+:root {
+   --cor-de-fundo: #091413;
+   --cor-de-texto-principal: #B0E4CC;
+   --cor-de-texto-secundário: #B0E4CC;
+   --botão-ativo: #7FB77E;
+   --botâo-inativo: #7FB77E;
+}
 
-<body>
-    <section class="conteudo-principal">
-        <h2 class="titulo-principal">Meus objetivos do ano<span></span>
-        </h2>
-        <div class="conteudo">
-            <div class="botoes">
+body {
+   font-family: "Raleway", sans-serif;
+   background: var(--cor-de-fundo);
+   color: var(--cor-de-texto-principal);
+}
 
-                <button class="botoes">Cursos na Alura</button>
-                <button class="botoes">Criar projetos em JavaScript</button>
-                <button class="botoes">Criar um portifólio</button>
-                <button class="botoes">Atualizar meu currículo</button>
-            </div>
-            <div class="abas-texto">
-                <div class="conteudo-titulo-principal">
-                    Estudar 4 cursos da Alura
-                    </h3>
-                    </h4 class="conteudo-titulo-secundario">
-                    Tempo para completar
-                    </h4>
-                    <div class="contador">
-                        <div class="contador-digito">
-                            <p class="contador-digito-numerico">0</p>
-                            <p class="contador-digito-texto">dias</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numerico">0</p>
-                            <p class="contador-digito-texto">dias</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numerico">0</p>
-                            <p class="contador-digito-texto">dias</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numerico">0</p>
-                            <p class="contador-digito-texto">dias</p>
-                        </div>
+.conteudo-principal {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: 1200px;
+   width: 100%;
+   margin: 0 auto;
 
-                    </div>
+}
 
-                    <head>
-                    </head>
+.titulo-principal {
 
-                    <body>
+   text-align: left;
+   width: 100%;
+   font-size: 32px;
+}
 
-                    </body>
 
-</html>
-</body>
+.botao {
+   background-color: var(--botão-ativo);
+    display: flex;
+   justify-content: center;
+   padding: lem;
+   font-size: 18px;
+   align-items: center;
+   width: 100%;
+   border-bottom: 4px solid var(--botão-ativo);
+   border-left: 4px solid var(--botão-ativo);
+   border-right: 2px solid var(var(--botão-ativo));
+   border-top: none;
+}
 
-</html>
+.botao:first-child{
+      border-radius: 40px 40px 0 0;
+}
+
+  @media screen and 
