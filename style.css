@@ -62,3 +62,34 @@ border-radius: 40px 0 0 0;
 border-radius: 0 40px 0 0;
 }
 }
+.aba-conteudo{
+ display: nome;
+   background-color:aquamarine (var(--botâo-inativo);
+   padding:40px;
+
+
+   border-radius: 0  0  40px  40px;   
+}
+ 
+.conteudo-titulo-principal{
+   text-aling: center;
+
+}
+.conteudo-titulo-secundario{
+   text-aling:center;
+   color:black(--cor-texto-secundaria);
+   text-transform: uppercase
+}
+.contador{ 
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.contador-digito{
+   padding: 0 16px;
+   text-align: center;
+   min-width: 100px;
+}
+.contador-digito-texto{
+   
+}
