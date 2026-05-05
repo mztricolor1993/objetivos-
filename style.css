@@ -1,95 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+<!DOCTYPE html>
+<html lang="en">
 
-:root {
-   --cor-de-fundo: #091413;
-   --cor-de-texto-principal: #B0E4CC;
-   --cor-de-texto-secundário: #B0E4CC;
-   --botão-ativo: #7FB77E;
-   --botâo-inativo: #7FB77E;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
 
-body {
-   font-family: "Raleway", sans-serif;
-   background: var(--cor-de-fundo);
-   color: var(--cor-de-texto-principal);
-}
+<body>
+    <section class="conteudo-principal">
+        <h2 class="titulo-principal">Meus objetivos do ano<span></span>
+        </h2>
+        <div class="conteudo">
+            <div class="botoes">
 
-.conteudo-principal {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   max-width: 1200px;
-   width: 100%;
-   margin: 0 auto;
+                <button class="botao ativo">Cursos na Alura</button>
+                <button class="botao">Criar projetos em JavaScript</button>
+                <button class="botao">Criar um portifólio</button>
+                <button class="botao">Atualizar meu currículo</button>
+            </div>
+            <div class="abas-texto">
+                <div class= "aba-conteudo-ativo">
+                <div class="conteudo-titulo-principal">
+                   <h3> Estudar 4 cursos da Alura
+                    </h3>
+                    <h4 class="conteudo-titulo-secundario">
+                    Tempo para completar
+                    </h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numerico">0</p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numerico">0</p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numerico">0</p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numerico">0</p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                    </div>
+                </div>
+                    </div>
 
-}
+                    <head>
+                    </head>
 
-.titulo-principal {
+                    <body>
 
-   text-align: left;
-   width: 100%;
-   font-size: 32px;
-}
+                    </body>
 
+</html>
+</body>
 
-.botao {
-   background-color: var(--botão-ativo);
-    display: flex;
-   justify-content: center;
-   padding: lem;
-   font-size: 18px;
-   align-items: center;
-   width: 100%;
-   border-bottom: 4px solid var(--botão-ativo);
-   border-left: 4px solid var(--botão-ativo);
-   border-right: 2px solid var(var(--botão-ativo));
-   border-top: none;
-}
-
-.botao:first-child{
-      border-radius: 40px 40px 0 0;
-}
-
-  @media screen and (min-width: 768px){
-        .botoes{
-             display: flex;
-        }
-.botao:first-child{
-border-radius: 40px 0 0 0;
-}
-   .botao:last-child{
-border-radius: 0 40px 0 0;
-}
-}
-.aba-conteudo{
- display: nome;
-   background-color:aquamarine (var(--botâo-inativo);
-   padding:40px;
-
-
-   border-radius: 0  0  40px  40px;   
-}
- 
-.conteudo-titulo-principal{
-   text-align: center;
-
-}
-.conteudo-titulo-secundario{
-   text-align:center;
-   color:black(--cor-texto-secundaria);
-   text-transform: uppercase
-}
-.contador{ 
-   display: flex;
-   justify-content: center;
-   flex-wrap: wrap;
-}
-.contador-digito{
-   padding: 0 16px;
-   text-align: center;
-   min-width: 100px;
-}
-.contador-digito-texto{
-   
-}
+</html>
