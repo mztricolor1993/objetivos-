@@ -72,11 +72,11 @@ border-radius: 0 40px 0 0;
 }
  
 .conteudo-titulo-principal{
-   text-aling: center;
+   text-align: center;
 
 }
 .conteudo-titulo-secundario{
-   text-aling:center;
+   text-align:center;
    color:black(--cor-texto-secundaria);
    text-transform: uppercase
 }
